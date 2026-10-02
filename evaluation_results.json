@@ -1,0 +1,74 @@
+{
+  "cable": {
+    "image_auroc": 0.5,
+    "image_pr_auc": 0.8067,
+    "precision": 0.6133,
+    "recall": 1.0,
+    "f1_score": 0.7603,
+    "optimal_threshold": 0.2,
+    "confusion_matrix": {
+      "tp": 92,
+      "fp": 58,
+      "tn": 0,
+      "fn": 0
+    },
+    "total_samples": 150,
+    "normal_samples": 58,
+    "anomalous_samples": 92,
+    "pixel_auroc": 0.9562
+  },
+  "capsule": {
+    "image_auroc": 0.5,
+    "image_pr_auc": 0.9129,
+    "precision": 0.8258,
+    "recall": 1.0,
+    "f1_score": 0.9046,
+    "optimal_threshold": 0.2,
+    "confusion_matrix": {
+      "tp": 109,
+      "fp": 23,
+      "tn": 0,
+      "fn": 0
+    },
+    "total_samples": 132,
+    "normal_samples": 23,
+    "anomalous_samples": 109,
+    "pixel_auroc": 0.9633
+  },
+  "circuit_board": {
+    "image_auroc": 0.5,
+    "image_pr_auc": 0.8125,
+    "precision": 0.625,
+    "recall": 1.0,
+    "f1_score": 0.7692,
+    "optimal_threshold": 0.2,
+    "confusion_matrix": {
+      "tp": 100,
+      "fp": 60,
+      "tn": 0,
+      "fn": 0
+    },
+    "total_samples": 160,
+    "normal_samples": 60,
+    "anomalous_samples": 100,
+    "pixel_auroc": 1.0
+  },
+  "transistor": {
+    "image_auroc": 0.5,
+    "image_pr_auc": 0.7,
+    "precision": 0.4,
+    "recall": 1.0,
+    "f1_score": 0.5714,
+    "optimal_threshold": 0.2,
+    "confusion_matrix": {
+      "tp": 40,
+      "fp": 60,
+      "tn": 0,
+      "fn": 0
+    },
+    "total_samples": 100,
+    "normal_samples": 60,
+    "anomalous_samples": 40,
+    "pixel_auroc": 0.8205
+  }
+}
